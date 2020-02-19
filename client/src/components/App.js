@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Search from './Search'
+import PokemonList from './PokemonList'
+
 
 class App extends Component {
   constructor(props) {
@@ -8,11 +11,10 @@ class App extends Component {
 
   render() {
     const { pokemon } = this.props
-    console.log(pokemon)
     return (
         <div>
-          Search goes here
-          List goes here
+          <Search />
+          <PokemonList pokemon={pokemon} />
         </div>
     )
   }
