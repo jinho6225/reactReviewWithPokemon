@@ -10,7 +10,7 @@ class Search extends Component {
       <div>
         <form action="" >
           <input type="text" />
-          <button>Click</button>
+          <button>Add</button>
         </form>
       </div>
     )
